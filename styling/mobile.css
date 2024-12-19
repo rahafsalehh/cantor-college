@@ -1,14 +1,45 @@
 @media (max-width:720px) {
 
+
+  .body{
+    font-size: 18px;
+    margin:0;
+    padding:10px;
+  }
+
+section{
+  padding:0;
+  margin:0;
+  display:flex;
+  gap:3px;
+  flex-direction: column-reverse;
+}
+
+#findUsImg{
+
+  width: 370px;
+  height:300px;
+  padding:0;
+}
+
+#aboutUsImg2
+{
+margin-top:20px;
+  width:260px;
+  height:220px;
+}
+.mobileTxt{
+  width:300px;
+  padding:0;
+}
+
 .container{
   
   display:flex;
   flex-direction:column;
 }
 
-.navBar ul{
-  display:none;
-}
+
 
 .searchBar{
   padding:1px 1px;
@@ -43,26 +74,24 @@ padding:0;
   margin:0;
 }
 
-.navBar {
-  background-color: #333;
-  padding: 30px;
-}
 
-}
+.navBar ul{
 
-
-
-
-#hamburger {
-  display: none;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-  margin-left: auto;
+  display:flex;
+  flex-direction: column;
 }
 
 
 
+#hamburger{
+
+  display:block;
+}
 
 
+}
 
+#hamburger{
+
+  display:none;
+}
