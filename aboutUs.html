@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel= "stylesheet" href = "styling/headerAndFooter.css">
+  <link rel = "stylesheet" href="styling/style.css">
+  <link rel = "stylesheet" href="styling/aboutUs.css">
+  <script src="scripting/headerAndFooter.js"></script>
+  <link rel = "stylesheet" href="styling/mobile.css">
+  <link rel = "icon" href = "images/cantorCollegeLogo.png">
+  <script src="scripting/aboutUs.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>About Us | Sheffield Cantor College</title>
+</head>
+<body>
+  
+ 
+<header class="header">
+    <div class="logo">
+      <a title="Cantor College Holme" href="home.html" id="cantorCollegeLogo">
+        <img src = "images/cantorCollegeLogo.png" width="100" height="100"> 
+      </a>
+    </div>
+
+    <menu class="menu">
+      
+      <a href= "myCantor.html"> MyCantor</a>
+      <a href="staff.html">Staff</a>   
+      <input class="searchBar" placeholder="Search &#x1F50E;">
+          
+    </menu>
+
+</header>
+  
+<nav class="navBar">
+  <ul>
+    <li><a href="aboutUs.html">About Us |</a></li>
+    <li><a href="howToFindUs.html">How To Find Us |</a></li>
+    <li><a href="facilities.html">Facilities |</a></li>
+    <li><a href="computingCourses.html">Computing Courses |</a></li>
+    <li><a href="designCourses.html">Design Courses |</a></li>
+    <li><a href="learningResources.html">Learning Resources |</a></li>
+    <li><a class="selected" id="moreLink">More <span id="downArrowIcon">&#8964;</span></a>
+    <ul class="dropDown" id="dropDownMenu">
+      <li><a href="students.html">Students </a></li>
+      <li><a href="business.html">Business</a></li>
+      <li><a href="#footerItems">Conact Us</a></li>
+    </ul>
+    </li>
+    
+  </ul>
+</nav>
+
+
+    
+
+
+<main class = "AboutUsMain">
+
+  <div class="aboutUsHero">
+  <img class="cantorBuilding2" src="images/cantorBuilding2.jpg">
+  
+  <a id= "aboutUsLink"href="#aboutUsImg">
+  <h1 id="aboutUsTitle" onmouseover="changeBackground()" onmouseout="backToNormal()">ABOUT US</h1>
+  </a>
+  </div>
+
+<section>
+
+    <div id="aboutUsImg">
+      <img src = "" alt="ImageGallery" id="myImages"   width="530" height="460" title="Cantor College">
+    </div>
+
+    <div>
+      <p id="aboutUsText1">Cantor College was established in 1989 to specialize in Computing and Design. 
+        At Cantor College, we want to give students the education they need to achieve their career aims, leaving 
+        them equipped with the knowledge, skills and experience to succeed. </p>
+    </div>
+</section>
+
+
+<section>
+  <p id="aboutUsText2">Cantor College gives you the opportunities that can give you the edge when you enter the world of work, through our teaching and our links to some of the world's leading researchers and employers. Our students have gone on to successful careers in a wide range of industries across the globe.  Whatever your ambitions, our learning and support can help to get the most out of your time with Cantor College, both as a student and in your future career.</p>
+<img id="aboutUsImg2" src="images/plaza.png" title="Cantor Plaza">
+
+</section>
+
+</main>
+
+<footer id = "footerItems">
+  <div class="footerColumns">
+
+  <div class="footerItemsColumn1">
+    <img src="images/cantorCollegeLogo.png" id="FooterLogoIcon" height="100" width="100">
+
+    <h3>
+      Cantor College
+      Main Street
+      Sheffield
+      SC4 2BB
+      </h3>
+    <p>Tel: <span class="contactInfo">(01321) 2340 235 ,</span>
+      Fax: <span class="contactInfo">(01321) 2340 236</span>
+      </p>
+      <p>Email: <span class="contactInfo">info@cantorcollege.ac.uk</span></p>
+      <div class="socialMediaIcons">
+        <a href="https://www.facebook.com/100064380775845/mentions/?_rdr"><i class="fa-brands fa-facebook" id="faceBook"></i></a>
+        <a href="https://www.instagram.com/sheffhallamuni/reels/"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+        <a href="https://x.com/sheffhallamuni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter" id="twitter"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus" id="googlePlus"></i></a>
+        <a href="https://www.youtube.com/user/sheffieldhallamuni"><i class="fa-brands fa-youtube" id="youtube"></i></a>
+  </div>
+
+  </div>
+
+  </div>
+
+
+  <div class="siteFooterItems">
+    
+    <div class="legalInformation">
+    <p>Feedback</p>
+      <p>Privacy</p>
+      <p>Accessibility</p>
+      <p>FOI</p>
+      <p>Modern slavery statement</p>
+    </div>
+  
+    <p id="copyRight" >
+      &#169; Copyright 2024 Sheffield Cantor College
+    </p> 
+  </div>
+
+</footer>
+
+
+</body>
+</html>

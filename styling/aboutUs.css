@@ -1,0 +1,88 @@
+
+section{
+  display: flex;
+  /* gap:10px; */
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+main{
+  margin-bottom:260px;
+}
+
+section p {
+  font-size: 20px;
+  padding:30px;
+  width:580px;
+}
+
+.AboutUsMain h1{
+  text-align: center;
+  margin:0;
+  padding-top:60px;
+}
+
+
+
+#aboutUsImg{
+  margin-right:200px;
+}
+
+#aboutUsImg2{
+  border-radius:12px;
+}
+
+#aboutUsText1{
+  line-height:40px;
+  margin-right:100px;
+}
+
+#aboutUsText2{
+  line-height:30px;
+}
+
+.aboutUsHero{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 0;
+  position: relative;
+  overflow:hidden;
+  margin-bottom:80px;
+}
+
+.aboutUsHero h1{
+  color: rgba(254, 254, 238, 0.904);
+  margin-bottom:60px;
+  padding:10px;
+  border-radius:10px;
+  background-color:rgba(0, 0, 0, 0.644);
+}
+
+.cantorBuilding2{
+position:absolute;
+z-index: -1;
+min-width: 100%;
+min-height: 100%;
+}
+
+#aboutUsLink{
+  text-decoration: none;
+}
+
+
+.aboutUsBuildingImage{
+
+  border:none;
+  border-radius: 30px;
+  margin-left: 100px;
+}
+
+
+#myImages{
+
+  margin-left: 18px;
+  border-radius: 16px;
+}
+

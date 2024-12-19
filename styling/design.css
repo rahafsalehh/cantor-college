@@ -1,0 +1,44 @@
+
+section{
+  margin-top:100px;
+  display: flex;
+  gap:50px;
+  align-items:center; 
+  padding:25px;
+  margin-bottom:100px;
+}
+
+.designMain{
+  padding:50px;
+}
+
+
+.computerCourseTitle {
+  color:rgb(255, 243, 230);
+  margin-bottom:60px;
+  background-color: rgb(50, 48, 48);
+  padding:40px;
+  font-style: italic;
+  }
+
+  .designImg{
+    border-radius:14px;
+  }
+
+
+  .paragraphs{
+    display:flex;
+    flex-direction: column;
+  }
+
+  section p{
+    width:400px;
+    line-height:40px;
+    font-size:18px;
+  }
+
+
+  #paragraph3{
+    width:330px;
+  }
+

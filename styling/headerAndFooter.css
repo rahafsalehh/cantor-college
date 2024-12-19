@@ -1,0 +1,194 @@
+
+
+/*The following css is regarded to the header*/
+.logo{
+  display: flex;
+  align-items: center;
+  flex: 6;
+  margin-left: 133px;
+}
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu{
+ display:flex;
+ margin-right: 140px;
+ align-items: center;
+ 
+}
+
+.menu a{
+  text-decoration: none;
+  color:black;
+  display:block;
+  transition: 0.5s;
+  padding-left:30px;
+}
+
+
+.menu a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  }
+
+.searchBar{
+  margin-left: 30px;
+  border-radius: 10px;
+  border-color: #513006; 
+  padding: 8px 10px;
+}
+
+.navBar ul{
+display:flex;
+justify-content: center;
+list-style-type: none;
+background-color: rgb(57, 55, 55);
+text-decoration: none;
+color: beige;
+padding:0px;
+margin:0;
+overflow: hidden;
+transition:0.9s;
+}
+
+
+
+.navBar a{
+  text-decoration: none;
+  color:beige;
+  display: block;
+  padding:15px;
+  
+}
+
+
+.navBar li:hover{
+background-color: rgb(27, 27, 27);
+}
+
+
+
+.navBar li{
+  float: left;
+  
+}
+
+.navbar li:hover{
+  background-color: rgb(27, 27, 27);
+}
+
+
+
+.dropDown {
+  display: none; 
+  padding-left: 20px;
+  position:absolute;
+  flex-direction:column;
+  z-index:1;
+  border-radius:1px;
+}
+
+.dropDown li:hover{
+  background-color: rgb(27, 27, 27);
+}
+
+#moreLink {
+  cursor: pointer;
+  padding-right:23px;
+}
+
+#downArrowIcon {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+
+.dropDown li a {
+  text-decoration: none;
+}
+
+
+
+
+/*The following code regards the footer*/
+
+#FooterLogoIcon{
+  margin-top: 9px;
+}
+
+.footerColumns{
+  display:flex;
+  flex-direction: column;
+  background-color:#6a471a;
+}
+
+
+.footerItemsColumn1{
+display:flex;
+align-items: center;
+color:beige;
+flex-direction: column;
+padding:0;
+margin: 0;
+}
+
+.contactInfo:hover{
+
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+
+
+.socialMediaIcons{
+ display:flex;
+ justify-content: center;
+}
+
+.socialMediaIcons a{
+ text-decoration:none;
+ padding:10px;
+ margin:10px;
+ background-color:azure;
+ color: rgb(50, 48, 48);
+ border-radius: 10px;
+ }
+
+
+
+.legalInformation{
+  display:flex;
+  justify-content:center;
+}
+
+.legalInformation p{
+  display: flex;
+  padding:10px;
+}
+
+.siteFooterItems {
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  background-color: rgb(57, 55, 55);
+  color:bisque;
+  }
+
+#copyRight{
+  padding-left:390px;
+  margin-right:20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+section{
+  margin-top:100px;
+  display: flex;
+  gap:50px;
+  align-items:center; 
+  justify-content: center;
+}
+
+main{
+  margin-bottom:260px;
+} 
+
+.main{
+padding:70px;
+
+}
+
+main h3{
+
+  margin-left:60px;
+}
+
+section p {
+  font-size: 18px;
+  padding:30px;
+  width:580px;
+}
+
+.computerCourseTitle {
+  color:rgb(255, 243, 230);
+  margin-bottom:60px;
+  background-color: rgb(50, 48, 48);
+  padding:40px;
+  font-style: italic;
+  }
+
+#p1{
+  padding:20px;
+  display:flex;
+  line-height:60px;
+  width:600px;
+  font-size: 22px;
+  border-radius:20px;
+  color:rgb(247, 242, 228);
+  background-color: rgb(50, 48, 48);
+  }
+
+#p2{
+    margin-bottom:40px;
+  }
+
+
+
+.section2{
+
+  margin-top:200px;
+  padding:40px;
+  display:flex;
+  line-height:60px;
+  flex-direction:column;
+  text-align:center;
+  justify-content: center;
+  width:800px;
+  font-size: 22px;
+  border-radius:20px;
+  color:rgb(247, 242, 228);
+  background-color: rgb(50, 48, 48);
+  }
+
+.computerLabImg{
+  border-radius:10px;
+  }
+
+
+.computingMain{
+  display:flex;
+  flex-direction: column;
+  }
+  
+  
+  
+

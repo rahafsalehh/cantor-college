@@ -1,0 +1,33 @@
+
+
+.staffHero{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 500px 0;
+  position: relative;
+  overflow:hidden;
+  
+}
+
+.computingClass{
+position:absolute;
+z-index: -1;
+min-width: 100%;
+min-height: 100%;
+}
+
+#staffTitle{
+  color:beige;
+  padding: 10px;
+  display:flex;
+  justify-content: center;
+  border-radius:12px;
+  background-color: rgba(37, 33, 25, 0.813);
+}
+
+.staffInfo{
+
+  margin-left:100px;
+  margin:100px 100px;
+}

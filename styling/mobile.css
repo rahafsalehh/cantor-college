@@ -1,0 +1,68 @@
+@media (max-width:720px) {
+
+.container{
+  
+  display:flex;
+  flex-direction:column;
+}
+
+.navBar ul{
+  display:none;
+}
+
+.searchBar{
+  padding:1px 1px;
+  margin:0;
+}
+
+
+#copyRight{
+  margin:0;
+  padding:0;
+}
+
+#footerItems{
+  font-size: 10px;
+}
+
+.menu{
+margin:0;
+padding:0;
+}
+
+.menu a{
+  margin-left:3px;
+  margin-right:4px;
+
+  padding:0;
+}
+
+
+.logo{
+  flex: left;
+  margin:0;
+}
+
+.navBar {
+  background-color: #333;
+  padding: 30px;
+}
+
+}
+
+
+
+
+#hamburger {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+
+
+
+
+

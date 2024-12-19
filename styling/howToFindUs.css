@@ -1,0 +1,57 @@
+section{
+  display: flex;
+  gap:50px;
+  align-items:center;
+  padding-top:0;
+}
+
+main{
+  margin-bottom:90px;
+}
+
+.main{
+  padding:50px;
+}
+
+.howToFindUsImg{ 
+margin-top:100px;
+
+}
+
+.HowToFindUs {
+color:rgb(255, 243, 230);
+margin-bottom:60px;
+background-color: rgb(50, 48, 48);
+padding:40px;
+font-style: italic;
+}
+
+
+
+.whereToFindUs{
+
+  color:rgb(255, 233, 209);
+  font-weight: bold;
+  font-size:20px;
+  background-color: rgb(57, 55, 55);
+  text-decoration: none;
+  padding:15px 50px;
+  border-radius: 10px;
+  transition:0.15s;
+}
+
+.whereToFindUs:hover{
+
+  background-color:beige;
+  color:rgb(57, 55, 55);
+}
+
+.whereToFindUs:active{
+  opacity: 0.9;
+  box-shadow: 10px 10px lightblue;
+}
+
+.subtitle{
+  font-size:24px;
+  font-style: italic;
+}

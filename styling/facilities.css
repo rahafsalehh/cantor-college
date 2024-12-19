@@ -1,0 +1,83 @@
+section{
+  display: flex;
+  gap:50px;
+  align-items:center;
+  padding-top:30px;
+  padding-bottom:120px;
+}
+
+main{
+  padding:70px;
+  margin-bottom:90px;
+}
+
+
+.facilityHero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 0;
+  position: relative;
+  overflow:hidden;
+  margin-bottom:80px;
+}
+
+.facilityImg{
+  position: absolute;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.facilityHero h1{
+  color:beige;
+  background-color:rgba(0, 0, 0, 0.769);
+  border-radius:9px;
+  padding:12px;
+}
+
+.FacilityList{
+  padding:100px;
+  background-color:rgb(57, 55, 55);
+  border-radius: 30px;
+}
+
+.FacilityList ul{
+list-style-type: none;
+}
+
+.FacilityList p{
+  padding:14px;
+  background-color: rgb(44, 43, 43);
+  color:rgb(191, 188, 161);
+}
+
+
+
+
+#allParagraphs p{
+  display:flex;
+  flex-direction: column;
+  width:590px;
+  padding:40px;
+  line-height: 60px;
+  font-size:21px;
+}
+
+.paragraph3 h3{
+
+  margin-left:10px;
+  color:rgb(191, 188, 161);
+}
+
+.cantorAttrium{
+  border-radius:20px;
+}
+
+#cantorLecture{
+  border-radius:13px;
+}
+
+#facilityLink{
+  text-decoration: none;
+}

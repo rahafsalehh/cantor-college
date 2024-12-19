@@ -1,0 +1,97 @@
+.studentHero{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 750px 0;
+  position: relative;
+  overflow:hidden;
+  
+}
+
+.computingClass{
+position:absolute;
+z-index: -1;
+min-width: 100%;
+min-height: 100%;
+}
+
+#studentTitle{
+  color:beige;
+  padding:10px;
+  background-color: rgba(51, 42, 35, 0.635);
+  border-radius:10px;
+}
+
+.studentInfo{
+
+  margin-left:100px;
+  margin:100px 100px;
+}
+
+.studentParagraph1{
+margin-top:200px;
+padding:50px;
+width:675px;
+line-height:34px;
+text-align:center;
+margin-left:350px;
+background-color: beige;
+font-size:18px;
+border-radius:10px;
+}
+
+.studentParagraph1 h3{
+  font-weight:bold;
+  }
+
+.studentParagraph2{
+  margin-top:200px;
+  margin-bottom:200px;
+  color:beige;
+  padding:50px;
+  width:675px;
+  line-height:34px;
+  text-align:center;
+  margin-left:350px;
+  background-color: rgb(47, 47, 38);
+  font-size:18px;
+  border-radius:28px;
+  }
+
+.studentParagraph2 h3{
+  font-weight:bold;
+  }
+
+
+
+
+.span{
+  font-weight:bold;
+  font-size:19px;
+}
+
+.studentInfo h1{
+ font-style: italic; 
+ background-color:  rgb(57, 55, 55);
+ padding: 10px;
+ margin-bottom: 0px;
+ color: beige;
+ border-top-left-radius:9px;
+ border-top-right-radius:9px;
+}
+.studentInfo h2{
+  padding: 19px;
+}
+
+.studentInfo p{
+  padding: 19px;
+}
+
+.studentInfo{
+  background-color: beige;
+  border-radius:9px;
+  margin-bottom:200px;
+  margin-top:200px;
+  
+}
+

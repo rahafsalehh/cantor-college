@@ -1,0 +1,99 @@
+.businessTitle {
+  color:rgb(255, 243, 230);
+  margin-bottom:60px;
+  background-color: rgb(50, 48, 48);
+  padding:40px;
+  font-style: italic;
+  margin-bottom:100px;
+  }
+
+
+  .box{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    background-color:beige;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:100px;
+    flex-direction:column;
+    line-height:26px;
+    width:400px;
+  }
+
+  .box2{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    background-color:beige;
+    padding:10px;
+    border-radius:12px;
+    margin-bottom:100px;
+    flex-direction:column;
+    line-height:26px;
+    width:600px;
+  }
+
+  .main{
+    padding:70px;
+  }    
+
+  section{
+    display:flex;
+    gap:90px;
+    margin-bottom:100px;
+  }
+
+  #emptyLecture{
+    border-radius: 10px;
+    margin-top:170px;
+  }
+
+  #plaza{
+   border-radius:12px; 
+  }
+
+  .span{
+    font-weight:bold;
+   color: rgb(160, 134, 125);
+    font-size:23px;
+    font-style:italic;
+  }
+
+  .businessList ul{
+    list-style-type: none;
+  }
+
+  .businessList li{
+   padding:17px;
+   line-height:40px;
+   font-size:19px;
+  }
+
+  
+  .mainText{
+   background-color:rgb(39, 35, 35);
+    padding:10px;
+    color:rgba(245, 245, 220, 0.849);
+    border-radius:10px;
+    margin-bottom:300px;
+  }
+  
+  .mainText h2{
+    margin-left:55px;
+    padding:10px 10px;
+    color:rgb(181, 157, 148);
+
+  }
+  
+
+  .getInTouch{
+    display:flex;
+   background-color:rgb(56, 49, 49);
+   color:beige;
+    padding:30px;
+    text-align:center;
+    flex-direction: column;
+    border-radius:10px;
+    margin-bottom:100px;
+  }
