@@ -6,7 +6,7 @@
 
 My repo is located at:
 
-https://github.com/YOUR-GITHUB-NAME/YOUR-REPO-NAME
+https://github.com/c3008241/Cantor-College-Assignment
 
 ## CONFIRMATION OF FILES
 
